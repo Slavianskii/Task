@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TaskList>
+    <Task>
+        <id>1</id>
+        <title>QWERTYUIOP</title>
+        <description>gvagsvgfvsb</description>
+        <priority>0</priority>
+        <deadline>2022-12-12</deadline>
+        <status>new</status>
+    </Task>
+    <Task>
+        <id>2</id>
+        <title>TestTitle</title>
+        <description>TestDescription</description>
+        <priority>3</priority>
+        <deadline>2022-09-19</deadline>
+        <status>in_progress</status>
+        </Task>
+    <Task>
+        <id>3</id>
+        <title>qwerty</title>
+        <description>gvagsvgfvsb</description>
+        <priority>0</priority>
+        <deadline>2022-12-12</deadline>
+        <status>in_progress</status>
+    </Task>
+        <Task>
+        <id>4</id>
+        <title>asdf</title>
+        <description>sjfjbcwegb</description>
+        <priority>5</priority>
+        <deadline>2022-11-12</deadline>
+        <status>done</status>
+        <complete>2022-12-08</complete>
+    </Task>
+</TaskList>
