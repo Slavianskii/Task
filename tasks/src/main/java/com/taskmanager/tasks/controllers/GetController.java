@@ -18,19 +18,19 @@ import lombok.AllArgsConstructor;
 public class GetController {
 
     private final TaskService service;
-    @GetMapping("/alltasks")
+    @GetMapping("/getalltasks")
     public List<Task> GetAllTasks(){
         return service.findAllTasks();
     }
-    @GetMapping("/newtasks")
+    @GetMapping("/getnewtasks")
     public List<Task> GetNewTasks(){
         return service.findNewTask();
     }
-    @GetMapping("/progrtasks")
+    @GetMapping("/getprogrtasks")
     public List<Task> GetInProgressTasks(){
         return service.findInProgressTask();
     }
-    @GetMapping("/donetasks")
+    @GetMapping("/getsdonetasks")
     public List<Task> GetDoneTasks(){
         return service.findDoneTask();
     }
